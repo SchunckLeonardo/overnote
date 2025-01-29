@@ -2,7 +2,7 @@
 
 import { TipTap } from "@/components/tiptap";
 import { UserFeedNotes } from "@/components/user-feed-notes";
-import { UsersNotes } from "@/components/users-notes";
+import { PublicNotes } from "@/components/public-notes";
 import { NoteProvider } from "@/contexts/note-context";
 import { NotebookPen, Users } from "lucide-react";
 
@@ -23,7 +23,7 @@ export default function Page() {
                 <Users size={18} className="text-emerald-500" />
                 Users notes
               </span>
-              <UsersNotes />
+              <PublicNotes />
             </div>
             <div className="aspect-video rounded-xl bg-muted/50 h-full" />
           </div>

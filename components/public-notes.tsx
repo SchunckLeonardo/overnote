@@ -15,7 +15,7 @@ import { useQuery } from "@tanstack/react-query"
 import { extractTextFromHTML } from "@/utils/extract-text-from-html"
 import { Note } from "@/contexts/note-context"
 
-export function UsersNotes() {
+export function PublicNotes() {
     const router = useRouter()
 
     const { data, error } = useQuery({
